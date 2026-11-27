@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gobble Dash — The Great Escape</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #2b1d12; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; font-family: Georgia, serif; }
+  #wrap { width: 960px; max-width: 100vw; }
+  canvas { width: 100%; height: auto; display: block; background: #f7e3b0; border-radius: 8px; }
+  p.hint { color: #e8d5ae; text-align: center; font-size: 14px; margin: 8px 0 0; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="960" height="540"></canvas>
+  <p class="hint">Arrow keys or A/D to move &middot; Space / W / click to jump &middot; S or Down to duck &middot; Enter to start</p>
+</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
